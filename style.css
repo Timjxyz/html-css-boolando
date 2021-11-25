@@ -3,6 +3,7 @@ body{
     box-sizing: border-box;
    
 }
+/* Corpo dei css riferiti all'immagine dell'articolo */
 .container{
     width: 80%;
     margin: auto;
@@ -11,12 +12,14 @@ body{
 .row img{
     height: 500px;
 }
-
+/* Dimensionamento immagine e tag al suo interno */
 .product{
     height: 500px;
     position: relative;
     display: inline-block;
 }
+
+/* Inizio sconti dell'articolo e classificazione della qualità dell'articolo */
 
 .product .discount{
     position: absolute;
@@ -41,6 +44,8 @@ body{
     font-weight: 600;
 }
 
+/*  Fine sconti dell'articolo e classificazione della qualità dell'articolo */
+
 .product .heart {
     position: absolute;
     right: 0;
@@ -49,6 +54,15 @@ body{
     padding: 15px;
     font-size: 20px; 
 }
+
+/* Cambio di immagina con hover sull'articolo */
+
+
+/*  Fine dimensionamento immagine e tag al suo interno */
+
+
+
+/* Descrizione posta sotto alla foto dell'articolo */
 
 .description {
     margin-top: 5px;
@@ -77,3 +91,5 @@ body{
 .description .prezzo-originale{
     text-decoration: line-through;
 }
+
+/* Fine della descrizione posta sotto la foto dell'articolo */
