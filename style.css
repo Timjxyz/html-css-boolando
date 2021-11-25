@@ -1,0 +1,51 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+   
+}
+.container{
+    width: 80%;
+    margin: auto;
+}
+
+.row img{
+    height: 500px;
+}
+
+.product{
+    height: 500px;
+    position: relative;
+    display: inline-block;
+}
+
+.product .discount{
+    position: absolute;
+    left: 0;
+    bottom: 20px;
+    background-color: rgb(255,0,0);
+    color: rgb(255, 255, 255);
+    padding: 3px;
+    padding-right: 3px;
+    font-weight: 600;
+    
+
+}
+
+.product .tag{
+    position: absolute;
+    left: 50px;
+    bottom: 20px;
+    background-color: rgb(0, 128, 0);
+    color: rgb(255, 255, 255);
+    padding: 3px;
+    font-weight: 600;
+}
+
+.product .heart {
+    position: absolute;
+    right: 0;
+    top: 20px;
+    background-color:rgb(255, 255, 255);
+    padding: 15px;
+    font-size: 20px; 
+}
