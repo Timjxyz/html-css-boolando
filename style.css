@@ -49,3 +49,31 @@ body{
     padding: 15px;
     font-size: 20px; 
 }
+
+.description {
+    margin-top: 5px;
+}
+
+.description .marca{
+    color: rgb(22, 22, 22);
+}
+.description .name-article{
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 15px;
+}
+
+.description .prezzo{
+    font-size: 12px;
+    
+}
+
+.description .sconto{
+    color: rgb(255,0,0);
+    font-weight: 600;
+    margin-right: 3px;
+}
+
+.description .prezzo-originale{
+    text-decoration: line-through;
+}
