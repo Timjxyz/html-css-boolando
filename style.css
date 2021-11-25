@@ -34,6 +34,25 @@ body{
 
 }
 
+/* Immagini dei prodotti con hover */
+
+.product .first-img{
+    position: absolute;
+    
+}
+
+.product .second-img{
+    display: none;
+    position: absolute;
+    top: 0;
+}
+
+.product:hover .second-img{
+    display: block;
+}
+
+/* fine immagini dei prodotti */
+
 .product .tag{
     position: absolute;
     left: 50px;
