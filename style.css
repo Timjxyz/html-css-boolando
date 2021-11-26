@@ -1,6 +1,9 @@
+
+*{
+    box-sizing: border-box;
+}
 body{
     font-family: Arial, Helvetica, sans-serif;
-    box-sizing: border-box;
    
 }
 /* Corpo dei css riferiti all'immagine dell'articolo */
@@ -16,17 +19,19 @@ body{
     width: 33%;
     position: relative;
     display: inline-block;
-    margin-bottom: 100px;
+    margin-bottom: 20px;
+    
 }
 img{
     width: 100%;
+    padding: 5px;
 }
 
 /* Inizio sconti dell'articolo e classificazione della qualità dell'articolo */
 
 .product .discount{
     position: absolute;
-    left: 0;
+    left: 5px;
     bottom: 100px;
     background-color: rgb(255,0,0);
     color: rgb(255, 255, 255);
@@ -39,7 +44,7 @@ img{
 
 .product .tag{
     position: absolute;
-    left: 32px;
+    left: 40px;
     bottom: 100px;
     background-color: #028759;
     color: rgb(255, 255, 255);
@@ -50,7 +55,7 @@ img{
 
 .product .tag-2{
     position: absolute;
-    left: 0;
+    left: 5px;
     bottom: 100px;
     background-color: #028759;
     color: rgb(255, 255, 255);
@@ -63,7 +68,7 @@ img{
 .product .heart {
     position: absolute;
     right: 0;
-    top: 20px;
+    top: 10%;
     background-color:rgb(255, 255, 255);
     padding: 15px;
     font-size: 20px; 
